@@ -1,0 +1,27 @@
+{
+  "name": "trello",
+  "version": "1.0.0",
+  "description": "Segundo ejercicio de Nivelación",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/iMade13/Trello.git"
+  },
+  "keywords": [
+    "test",
+    "development"
+  ],
+  "author": "MadeleineM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iMade13/Trello/issues"
+  },
+  "homepage": "https://github.com/iMade13/Trello#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
