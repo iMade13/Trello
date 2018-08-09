@@ -1,0 +1,67 @@
+*,
+ ::after,
+ ::before {
+    box-sizing:
+}
+
+body {
+    background-image: url('/assets/img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*que no tenga movimientos*/
+    background-position: center;
+    position: relative;
+    border: 0;
+}
+
+.col {
+    padding: 0;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.2);
+    height: 2.6rem;
+}
+
+.header img {
+    height: 2rem;
+    ;
+}
+
+span.btn.btn-header {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+#icon-lupa {
+    position: relative;
+    right: 23px;
+    color: #fff;
+}
+
+img#logo:hover {
+    opacity: .8;
+    transition: .1s ease;
+}
+
+input.btn-header {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-left: 4px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.icon-right span {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    margin-right: 4px;
+    line-height: 18px;
+    padding: 5px 8px 6px 7px;
+}
+
+.icon-right .bell {
+    background: #00c2e0;
+}
