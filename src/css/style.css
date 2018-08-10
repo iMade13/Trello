@@ -3,7 +3,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /*que no tenga movimientos*/
     background-position: center;
     position: relative;
     border: 0;
@@ -13,6 +12,9 @@ body {
 .col {
     padding: 0;
 }
+
+
+/* -- HEADER --*/
 
 header {
     background: rgba(0, 0, 0, 0.2);
@@ -159,7 +161,7 @@ form {
     font-size: 14px;
 }
 
-#btnList {
+#btnGuardar {
     /* display: inline-block; */
     font-weight: 700;
     margin-top: 4px;
