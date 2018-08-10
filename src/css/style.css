@@ -131,3 +131,46 @@ a.btn.list {
 a.btn.list:hover {
     color: #fff;
 }
+
+form {
+    text-align: left;
+}
+
+
+/* -- AÑADIR LISTAS -- */
+
+#listas {
+    height: auto;
+    width: 272px;
+    min-height: 32px;
+    padding: 4px;
+    border-radius: 3px;
+    background-color: #e2e4e6;
+}
+
+#inputList {
+    width: 260px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #cdd2d4;
+    border-radius: 3px;
+    padding: 6px 8px;
+    border-color: #298fca;
+    font-size: 14px;
+}
+
+#btnList {
+    /* display: inline-block; */
+    font-weight: 700;
+    margin-top: 4px;
+    padding: 4px 16px;
+    font-size: 14px;
+    min-height: 32px;
+}
+
+span #close {
+    color: grey;
+    padding-left: 15px;
+    opacity: 0.4;
+    margin-top: 2px;
+}
