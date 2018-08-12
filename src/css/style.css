@@ -1,5 +1,5 @@
 body {
-    background-image: url('/assets/img/background.jpg');
+    background-image: url('../../assets/img/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -49,9 +49,9 @@ img#logo:hover {
 .icon-right span {
     background-color: rgba(0, 0, 0, 0.3);
     color: #fff;
-    margin-right: 4px;
+    margin-right: 2px;
     line-height: 18px;
-    padding: 5px 8px 6px 7px;
+    padding: 5px 7px 6px 7px;
 }
 
 .icon-right .bell {
@@ -115,6 +115,7 @@ a i {
     width: 272px;
     margin: 0 4px;
     display: inline-block;
+    border: 0;
 }
 
 .tableros:hover {
@@ -142,16 +143,15 @@ form {
 /* -- AÑADIR LISTAS -- */
 
 #listas {
-    height: auto;
+    /* height: auto;
     width: 272px;
     min-height: 32px;
     padding: 4px;
     border-radius: 3px;
-    background-color: #e2e4e6;
+    background-color: #e2e4e6; */
 }
 
 #inputList {
-    width: 260px;
     display: inline-block;
     vertical-align: top;
     border: 1px solid #cdd2d4;
@@ -159,10 +159,13 @@ form {
     padding: 6px 8px;
     border-color: #298fca;
     font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    padding: 6px 8px;
 }
 
-#btnGuardar {
-    /* display: inline-block; */
+#btnAddList {
+    display: inline-block;
     font-weight: 700;
     margin-top: 4px;
     padding: 4px 16px;
@@ -170,9 +173,21 @@ form {
     min-height: 32px;
 }
 
-span #close {
+
+/* span #close {
     color: grey;
     padding-left: 15px;
     opacity: 0.4;
     margin-top: 2px;
+} */
+
+#formList {
+    width: 272px;
+    background: #e2e4e6;
+    border-radius: 3px;
+    flex-direction: column;
+    position: relative;
+    padding: 4px;
+    height: auto;
+    margin-left: 8px;
 }

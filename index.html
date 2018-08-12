@@ -15,9 +15,9 @@
 
 <body>
     <div class="container-fluid">
-        <div class="row d-flex flex-wrap ">
-            <div class="col ">
-                <header class="d-flex flex-direction:row justify-content-between clearflix header">
+        <div class="row d-flex flex-wrap">
+            <div class="col">
+                <header class="d-flex flex-direction-row justify-content-between  header">
                     <div class="d-flex align-items-center">
                         <span class="btn btn-header ml-1">
                         <i class="fab fa-trello"></i>  Tableros</span>
@@ -27,11 +27,11 @@
                     <div class="d-flex align-items-center">
                         <img src="assets/img/logo.png" alt="logo" id="logo">
                     </div>
-                    <div class="d-flex align-items-center icon-right">
+                    <div class="icon-right d-flex align-items-center">
                         <span class="btn ml-auto"><i class="fas fa-plus"></i></span>
                         <span class="btn"><i class="fas fa-info-circle"></i></span>
                         <span class="btn bell"><i class="far fa-bell "></i></span>
-                        <img src="/assets/img/person.jpg" class="rounded-circle mr-2" alt="">
+                        <img src="assets/img/person.jpg" class="rounded-circle mr-1" alt="">
                     </div>
                 </header>
             </div>
@@ -43,7 +43,7 @@
                     <span class="btn" id="icon-star"><i class="far fa-star"></i></span>
                     <span class="btn two">Personal</span>
                     <span class="btn two"><i class="fas fa-lock"></i> Privado</span>
-                    <img src="/assets/img/person.jpg" class="rounded-circle" alt="" id="img">
+                    <img src="assets/img/person.jpg" class="rounded-circle" alt="" id="img">
                     <a class="btn buttons ml-auto" href="" id="menu"><i class="fas fa-ellipsis-h"></i> <span>Mostrar menú</span></a>
                 </div>
             </div>
@@ -51,16 +51,26 @@
         <div class="row">
             <div class="col">
                 <div class="btn tableros" id="tableros">
-                    <form>
-                        <a class="btn list" id="btnList">
-                            <i class="fas fa-plus"></i> Añada una lista
-                        </a>
-                    </form>
+                    <a class="btn list" id="btnList">
+                        <i class="fas fa-plus"></i> Añada una lista
+                    </a>
                 </div>
-                <form class="" id="addList"></form>
             </div>
-            <div id="titleList"></div>
         </div>
+        <div id="listas">
+            <form class="col" id="formList">
+                <div id="boxInputList">
+
+                </div>
+                <div id="boxBtnAddList">
+
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <div id="titleList"></div>
+    </div>
 
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
