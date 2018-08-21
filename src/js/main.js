@@ -72,7 +72,3 @@ function titleList() {
     addTask.appendChild(addTaskC)
 
 }
-
-function addCards() {
-    const cards = document.getElementById
-}
