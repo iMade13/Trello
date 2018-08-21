@@ -116,6 +116,7 @@ a i {
     margin: 0 4px;
     display: inline-block;
     border: 0;
+    text-align: left;
 }
 
 .tableros:hover {
@@ -142,13 +143,14 @@ form {
 
 /* -- AÑADIR LISTAS -- */
 
-#listas {
-    /* height: auto;
+#cards {
     width: 272px;
-    min-height: 32px;
-    padding: 4px;
     border-radius: 3px;
-    background-color: #e2e4e6; */
+    background-color: #e2e4e6;
+    position: relative;
+    padding: 4px;
+    height: auto;
+    margin-left: 8px;
 }
 
 #inputList {
@@ -173,14 +175,6 @@ form {
     min-height: 32px;
 }
 
-
-/* span #close {
-    color: grey;
-    padding-left: 15px;
-    opacity: 0.4;
-    margin-top: 2px;
-} */
-
 #formList {
     width: 272px;
     background: #e2e4e6;
@@ -190,4 +184,15 @@ form {
     padding: 4px;
     height: auto;
     margin-left: 8px;
+}
+
+div#addCard {
+    text-decoration: underline;
+    font-size: 14px;
+    margin-top: 10px;
+    height: auto;
+}
+
+span {
+    color: #444;
 }
